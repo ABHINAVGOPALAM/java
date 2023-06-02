@@ -1,3 +1,4 @@
+import java.util.*;
 class Vector
 {
 	int x,y;
@@ -23,6 +24,8 @@ class PassingAndReturningObjects
 {
 	public static void main(String args[]) 
 	{
+		Scanner s=new Scanner(System.in);
+		
 		Vector v1=new Vector(10,20);
 		Vector v2=new Vector(31,18);
 		System.out.print("v1 : ");
