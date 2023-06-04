@@ -1,3 +1,6 @@
+
+//Program to demonstrate Inner Class 2
+
 class Outer 
 {
   private int outerData = 10;

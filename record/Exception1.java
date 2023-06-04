@@ -1,3 +1,7 @@
+
+//Program to demonstrate Exception Handling 1
+//Using Try and catch block
+
 class Exception1
 {
 	public static void main(String args[]) 
