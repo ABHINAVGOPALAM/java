@@ -1,15 +1,30 @@
+import java.util.*;
 class BubbleSort
 {
 	public static void main(String args[]) 
 	{
 	int temp,n;
-	int a[]={1,45,8,99,34,0,-34,86};
-	n=a.length;
-	System.out.print("Array before Sorting : ");
+	
+	Scanner s=new Scanner(System.in);
+	
+	System.out.print("Enter size of array :");
+			n=s.nextInt();
+	
+	int a[]= new int[n];	
+	
+	System.out.println("Enter the elements : ");
+	for(int i=0;i<n;i++)
+	{
+		a[i]=s.nextInt();
+	}
+	
+	System.out.print("\nArray before Sorting : ");
 	for(int i=0;i<n;i++)
 	{
 		System.out.print(a[i]+" ");
 	}
+	
+	
 	for(int i=0;i<n;i++)
 	{
 		for(int j=0;j<n-1;j++)
@@ -22,6 +37,7 @@ class BubbleSort
 			}
 		}
 	}
+	
 	System.out.print("\nArray after Sorting : ");
 	for(int i=0;i<n;i++)
 	{
