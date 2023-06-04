@@ -1,25 +1,22 @@
+
+//Program to demonstrate User Input in Java
+
 import java.util.*;
 
-class Calc
-{
-	int add(int x,int y)
-	{
+class Calc{
+	int add(int x,int y){
 		return x+y;
 	}
-	int sub(int x,int y)
-	{
+	int sub(int x,int y){
 		return x-y;
 	}
-	int mul(int x,int y)
-	{
+	int mul(int x,int y){
 		return x*y;
 	}
 }
 
-class UserInput
-{
-	public static void main(String args[]) 
-	{
+class UserInput{
+	public static void main(String args[]) {
 		int x,y;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter First Number : ");

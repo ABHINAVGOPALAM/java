@@ -1,3 +1,6 @@
+
+//Program to demonstrate use of Constructor in java
+
 class Rectangle
 {
   float length,breadth;

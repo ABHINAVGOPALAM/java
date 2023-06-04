@@ -1,3 +1,6 @@
+
+//Program to demonstrate Static Block
+
 class Stati
 {
 	static int a;
