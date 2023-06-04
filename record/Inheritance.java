@@ -1,28 +1,24 @@
-class I1
-{
+
+//Program to demonstrate Single Inheritance
+
+class I1{
 	int i,j;
-	void showij()
-	{
+	void showij(){
 		System.out.println("i : "+i+"\nj : "+j);
 	}
 }
-class I2 extends I1
-{
+class I2 extends I1{
 	int k;
-	void showk()
-	{
+	void showk(){
 		System.out.println("k : "+k);
 	}
-	void sum()
-	{
+	void sum(){
 		System.out.println("Sum of i,j,k is : "+(i+j+k));
 	}
 }
 
-class Inheritance
-{
-	public static void main(String args[]) 
-	{
+class Inheritance{
+	public static void main(String args[]) {
 		I2 obj=new I2();
 		obj.i=10;
 		obj.j=20;

@@ -1,3 +1,6 @@
+
+//Program to demonstrate Exception Handling 2
+
 class Exception2
 {
 	public static void main(String args[]) 

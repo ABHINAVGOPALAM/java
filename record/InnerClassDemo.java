@@ -1,3 +1,6 @@
+
+//Program to desmostrate Inner class 1
+
 class Outer
 {
 	int outerx=10;

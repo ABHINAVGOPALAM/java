@@ -1,3 +1,6 @@
+
+//Program to demonstrate Static variables, methods
+
 class StaticTest
 {
 	static int a=3;

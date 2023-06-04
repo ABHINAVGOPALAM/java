@@ -1,3 +1,7 @@
+
+//Program to demonstrate Exception Handling 3
+//Using throw and throws keyword
+
 class ThrowEx
 {
 	void f() throws NullPointerException
@@ -5,7 +9,6 @@ class ThrowEx
 		throw new NullPointerException("Exception thrown in ThrowEx class manually");
 	}
 }
-
 class Exception3
 {
 	public static void main(String args[]) 
