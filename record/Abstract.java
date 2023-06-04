@@ -1,3 +1,6 @@
+
+//Program to show Abstract class and methods
+
 abstract class Figure 
 {
 	abstract void shape();
