@@ -6,7 +6,7 @@ class ThrowEx
 {
 	void f() throws NullPointerException
 	{
-		throw new NullPointerException("Exception thrown in ThrowEx class manually");
+		throw new NullPointerException("weiufvbbvf");
 	}
 }
 class Exception3

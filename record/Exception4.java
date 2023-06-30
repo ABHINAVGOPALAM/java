@@ -6,14 +6,15 @@ class E1{
 		try{
 			throw new ArithmeticException("thrown in E1 class handled in main");
 		}
-		finally{
+		finally
+		{
 			System.out.println("Inside E1 finnaly block");}
 	}
 }
 class E2{
 	void m2(){
 		try{
-			System.out.println("Inside try of E1");
+			System.out.println("Inside try of E2");
 			return;
 		}
 		finally{

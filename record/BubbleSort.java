@@ -12,7 +12,7 @@ class BubbleSort
 	
 	int a[]= new int[n];	
 	
-	System.out.println("Enter the elements : ");
+	System.out.println("Ente r the elements : ");
 	for(int i=0;i<n;i++)
 		a[i]=s.nextInt();
 	System.out.print("\nArray before Sorting : ");
